@@ -77,18 +77,7 @@ public:
                                         "] (value: " + std::to_string(initial_fuel) + ").");
         }
 
-        // Check if any edge has consumption exceeding tank capacity
-        for (int i = 0; i < num_nodes; ++i) {
-            for (const auto& edge : graph.get_neighbors(i)) {
-                if (edge.fuel_consumption > capacity) {
-                    throw std::invalid_argument("Error: Edge from Node " + std::to_string(i) + 
-                                                " to Node " + std::to_string(edge.to) + 
-                                                " requires " + std::to_string(edge.fuel_consumption) + 
-                                                " fuel, which exceeds the tank capacity (" + 
-                                                std::to_string(capacity) + "). This route is impassable.");
-                }
-            }
-        }
+        // No global check here. Dijkstra naturally bypasses impassable edges.
     }
 };
 

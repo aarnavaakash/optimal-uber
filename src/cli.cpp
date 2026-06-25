@@ -75,13 +75,32 @@ void InteractiveCommandLineInterface::print_graph_info() const {
     }
     std::cout << "Total Connections (Edges): " << (graph.is_directed() ? total_edges : total_edges / 2) << std::endl;
     
-    std::cout << "\n" << BOLD << "City Fuel Prices:\n" << RESET;
+    std::cout << "\n" << BOLD << CYAN << "--------------------------------------------------------------------------------" << RESET << std::endl;
+    std::cout << BOLD << std::left << std::setw(8) << "ID"
+              << std::setw(18) << "City Name"
+              << std::setw(22) << "Coordinates (X, Y)"
+              << "Petrol Price ($/unit)" << RESET << std::endl;
+    std::cout << BOLD << CYAN << "--------------------------------------------------------------------------------" << RESET << std::endl;
+    
     const auto& nodes = graph.get_nodes();
-    for (size_t i = 0; i < nodes.size(); ++i) {
-        std::cout << std::left << std::setw(12) << nodes[i].name << "($" << std::fixed << std::setprecision(2) << nodes[i].fuel_price << "/unit) ";
-        if ((i + 1) % 4 == 0) std::cout << "\n";
+    for (const auto& node : nodes) {
+        std::stringstream ss_coord;
+        ss_coord << "(" << std::fixed << std::setprecision(2) << node.x << ", " << node.y << ")";
+        
+        std::stringstream ss_price;
+        if (node.fuel_price >= 1e9 - 1.0) {
+            ss_price << "INF (No Pump)";
+        } else {
+            ss_price << "$" << std::fixed << std::setprecision(2) << node.fuel_price;
+        }
+
+        std::cout << std::left << std::setw(8) << node.id
+                  << std::setw(18) << node.name
+                  << std::setw(22) << ss_coord.str()
+                  << ss_price.str() << std::endl;
     }
-    std::cout << "\n" << std::endl;
+    std::cout << BOLD << CYAN << "--------------------------------------------------------------------------------" << RESET << std::endl;
+    std::cout << std::endl;
 }
 
 void InteractiveCommandLineInterface::run_optimization() {

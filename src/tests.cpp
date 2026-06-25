@@ -246,20 +246,25 @@ static bool test_input_validation() {
     }
     ASSERT_TRUE(caught_neg_price);
 
-    // 2. Impassable edge test (fuel consumption > tank capacity)
+    // 2. Impassable edge test (verify that validate_query does not throw, and optimizer correctly finds 0 paths)
     Graph g2(2, true);
     g2.add_node(0, "A", 1.5);
     g2.add_node(1, "B", 1.5);
     g2.add_edge(0, 1, 10.0, 1.0, 15.0, 0.0); // Consumes 15.0 fuel
 
-    bool caught_impassable = false;
+    bool threw = false;
     try {
-        // Tank capacity is 10.0, which is less than the edge fuel requirement (15.0)
         InputValidator::validate_query(g2, 0, 1, 10.0, 5.0);
-    } catch (const std::invalid_argument&) {
-        caught_impassable = true;
+    } catch (...) {
+        threw = true;
     }
-    ASSERT_TRUE(caught_impassable);
+    ASSERT_TRUE(!threw); // It should not throw anymore
+
+    OptimizerSettings settings;
+    settings.initial_fuel = 5.0;
+    settings.tank_capacity = 10.0;
+    DijkstraOptimizer opt(g2, settings);
+    ASSERT_TRUE(opt.find_paths(0, 1).empty()); // Optimizer must handle it by returning empty paths
 
     // 3. Invalid initial fuel level
     bool caught_fuel_bounds = false;

@@ -276,8 +276,39 @@ bool Graph::load_from_file(const std::string& filepath, Graph& out_graph, FileQu
             }
         } else if (mode == PRICES) {
             int id;
-            std::string price_str;
-            if (ss >> id >> price_str) {
+            if (ss >> id) {
+                std::vector<std::string> tokens;
+                std::string tok;
+                while (ss >> tok) {
+                    tokens.push_back(tok);
+                }
+                
+                std::string name = "City_" + std::to_string(id);
+                std::string price_str = "INF";
+                double x = 0.0;
+                double y = 0.0;
+                
+                if (tokens.size() == 1) {
+                    price_str = tokens[0];
+                } else if (tokens.size() >= 2) {
+                    name = tokens[0];
+                    price_str = tokens[1];
+                    if (tokens.size() >= 3) {
+                        try {
+                            x = std::stod(tokens[2]);
+                        } catch (...) {
+                            x = 0.0;
+                        }
+                    }
+                    if (tokens.size() >= 4) {
+                        try {
+                            y = std::stod(tokens[3]);
+                        } catch (...) {
+                            y = 0.0;
+                        }
+                    }
+                }
+                
                 double price = 1e9;
                 if (price_str != "INF" && price_str != "inf" && price_str != "-1") {
                     try {
@@ -287,7 +318,7 @@ bool Graph::load_from_file(const std::string& filepath, Graph& out_graph, FileQu
                         price = 1e9;
                     }
                 }
-                out_graph.add_node(id, "City_" + std::to_string(id), price);
+                out_graph.add_node(id, name, price, x, y);
             }
         } else if (mode == QUERY) {
             int src, dst;
