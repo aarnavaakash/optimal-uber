@@ -1,0 +1,3 @@
+/Users/energeticboy/Desktop/fuelcomp/build/CMakeFiles/fuel_planner.dir
+/Users/energeticboy/Desktop/fuelcomp/build/CMakeFiles/edit_cache.dir
+/Users/energeticboy/Desktop/fuelcomp/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1925 @@
+{
+  "start_node": 0,
+  "dest_node": 49,
+  "graph": {
+    "nodes": [
+      {
+        "id": 0,
+        "name": "City_0",
+        "fuel_price": 2.0356,
+        "x": 73.7234,
+        "y": 24.6748
+      },
+      {
+        "id": 1,
+        "name": "City_1",
+        "fuel_price": 1.2200,
+        "x": 57.7480,
+        "y": 45.6666
+      },
+      {
+        "id": 2,
+        "name": "City_2",
+        "fuel_price": 1.2714,
+        "x": 46.7399,
+        "y": 36.6967
+      },
+      {
+        "id": 3,
+        "name": "City_3",
+        "fuel_price": 1.9664,
+        "x": 62.0711,
+        "y": 14.5129
+      },
+      {
+        "id": 4,
+        "name": "City_4",
+        "fuel_price": 2.2907,
+        "x": 85.0842,
+        "y": 10.0623
+      },
+      {
+        "id": 5,
+        "name": "City_5",
+        "fuel_price": 1.1085,
+        "x": 59.3985,
+        "y": 58.9323
+      },
+      {
+        "id": 6,
+        "name": "City_6",
+        "fuel_price": 1.5798,
+        "x": 11.8450,
+        "y": 51.9820
+      },
+      {
+        "id": 7,
+        "name": "City_7",
+        "fuel_price": 1.3793,
+        "x": 13.7333,
+        "y": 87.9004
+      },
+      {
+        "id": 8,
+        "name": "City_8",
+        "fuel_price": 1.5590,
+        "x": 17.2485,
+        "y": 59.4709
+      },
+      {
+        "id": 9,
+        "name": "City_9",
+        "fuel_price": 2.1319,
+        "x": 88.6585,
+        "y": 47.3410
+      },
+      {
+        "id": 10,
+        "name": "City_10",
+        "fuel_price": 1.1159,
+        "x": 64.4246,
+        "y": 46.0399
+      },
+      {
+        "id": 11,
+        "name": "City_11",
+        "fuel_price": 1.5625,
+        "x": 85.3761,
+        "y": 55.0631
+      },
+      {
+        "id": 12,
+        "name": "City_12",
+        "fuel_price": 1.3892,
+        "x": 11.2773,
+        "y": 28.4715
+      },
+      {
+        "id": 13,
+        "name": "City_13",
+        "fuel_price": 2.0998,
+        "x": 64.6611,
+        "y": 58.7997
+      },
+      {
+        "id": 14,
+        "name": "City_14",
+        "fuel_price": 1.3187,
+        "x": 23.8692,
+        "y": 41.2848
+      },
+      {
+        "id": 15,
+        "name": "City_15",
+        "fuel_price": 1.3495,
+        "x": 70.4289,
+        "y": 44.0125
+      },
+      {
+        "id": 16,
+        "name": "City_16",
+        "fuel_price": 2.1107,
+        "x": 55.4160,
+        "y": 12.5051
+      },
+      {
+        "id": 17,
+        "name": "City_17",
+        "fuel_price": 2.2120,
+        "x": 45.9803,
+        "y": 41.6120
+      },
+      {
+        "id": 18,
+        "name": "City_18",
+        "fuel_price": 1.7845,
+        "x": 68.1818,
+        "y": 36.1233
+      },
+      {
+        "id": 19,
+        "name": "City_19",
+        "fuel_price": 2.1134,
+        "x": 51.6667,
+        "y": 86.8938
+      },
+      {
+        "id": 20,
+        "name": "City_20",
+        "fuel_price": 1.8041,
+        "x": 69.7856,
+        "y": 53.1754
+      },
+      {
+        "id": 21,
+        "name": "City_21",
+        "fuel_price": 1.4312,
+        "x": 87.2204,
+        "y": 58.5627
+      },
+      {
+        "id": 22,
+        "name": "City_22",
+        "fuel_price": 1.1188,
+        "x": 33.7019,
+        "y": 23.2214
+      },
+      {
+        "id": 23,
+        "name": "City_23",
+        "fuel_price": 1.4522,
+        "x": 43.8721,
+        "y": 41.5905
+      },
+      {
+        "id": 24,
+        "name": "City_24",
+        "fuel_price": 1.9536,
+        "x": 11.1264,
+        "y": 25.9074
+      },
+      {
+        "id": 25,
+        "name": "City_25",
+        "fuel_price": 2.2116,
+        "x": 73.2140,
+        "y": 58.4768
+      },
+      {
+        "id": 26,
+        "name": "City_26",
+        "fuel_price": 2.1200,
+        "x": 62.0862,
+        "y": 83.1968
+      },
+      {
+        "id": 27,
+        "name": "City_27",
+        "fuel_price": 1.5450,
+        "x": 45.9561,
+        "y": 17.6328
+      },
+      {
+        "id": 28,
+        "name": "City_28",
+        "fuel_price": 1.8096,
+        "x": 63.5073,
+        "y": 63.2738
+      },
+      {
+        "id": 29,
+        "name": "City_29",
+        "fuel_price": 1.5595,
+        "x": 31.9777,
+        "y": 54.8995
+      },
+      {
+        "id": 30,
+        "name": "City_30",
+        "fuel_price": 1.9661,
+        "x": 87.7370,
+        "y": 77.9131
+      },
+      {
+        "id": 31,
+        "name": "City_31",
+        "fuel_price": 1.1485,
+        "x": 28.8788,
+        "y": 30.4855
+      },
+      {
+        "id": 32,
+        "name": "City_32",
+        "fuel_price": 1.6272,
+        "x": 66.8530,
+        "y": 18.8713
+      },
+      {
+        "id": 33,
+        "name": "City_33",
+        "fuel_price": 1.6704,
+        "x": 26.1375,
+        "y": 81.6611
+      },
+      {
+        "id": 34,
+        "name": "City_34",
+        "fuel_price": 1.2672,
+        "x": 55.0620,
+        "y": 65.6413
+      },
+      {
+        "id": 35,
+        "name": "City_35",
+        "fuel_price": 1.3437,
+        "x": 58.3534,
+        "y": 53.1873
+      },
+      {
+        "id": 36,
+        "name": "City_36",
+        "fuel_price": 1.9337,
+        "x": 85.4283,
+        "y": 57.9092
+      },
+      {
+        "id": 37,
+        "name": "City_37",
+        "fuel_price": 1.4548,
+        "x": 80.4374,
+        "y": 59.9483
+      },
+      {
+        "id": 38,
+        "name": "City_38",
+        "fuel_price": 1.3621,
+        "x": 18.4395,
+        "y": 46.5228
+      },
+      {
+        "id": 39,
+        "name": "City_39",
+        "fuel_price": 1.4892,
+        "x": 43.3208,
+        "y": 80.6624
+      },
+      {
+        "id": 40,
+        "name": "City_40",
+        "fuel_price": 2.1882,
+        "x": 19.7670,
+        "y": 38.5038
+      },
+      {
+        "id": 41,
+        "name": "City_41",
+        "fuel_price": 1.1006,
+        "x": 31.7706,
+        "y": 61.8152
+      },
+      {
+        "id": 42,
+        "name": "City_42",
+        "fuel_price": 1.2976,
+        "x": 38.2055,
+        "y": 34.3825
+      },
+      {
+        "id": 43,
+        "name": "City_43",
+        "fuel_price": 1.9309,
+        "x": 52.7272,
+        "y": 48.7864
+      },
+      {
+        "id": 44,
+        "name": "City_44",
+        "fuel_price": 1.3019,
+        "x": 31.5530,
+        "y": 29.5300
+      },
+      {
+        "id": 45,
+        "name": "City_45",
+        "fuel_price": 1.5846,
+        "x": 27.5011,
+        "y": 54.6482
+      },
+      {
+        "id": 46,
+        "name": "City_46",
+        "fuel_price": 1.3963,
+        "x": 15.1914,
+        "y": 30.3132
+      },
+      {
+        "id": 47,
+        "name": "City_47",
+        "fuel_price": 1.2777,
+        "x": 65.7043,
+        "y": 66.9816
+      },
+      {
+        "id": 48,
+        "name": "City_48",
+        "fuel_price": 2.2719,
+        "x": 89.8192,
+        "y": 31.3425
+      },
+      {
+        "id": 49,
+        "name": "City_49",
+        "fuel_price": 1.5141,
+        "x": 42.8830,
+        "y": 12.6441
+      }
+    ],
+    "edges": [
+      {
+        "from": 0,
+        "to": 1,
+        "distance": 26.3794,
+        "time": 0.3358,
+        "fuel_consumption": 2.9240,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 0,
+        "to": 3,
+        "distance": 15.4609,
+        "time": 0.2882,
+        "fuel_consumption": 1.4252,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 0,
+        "to": 4,
+        "distance": 18.5092,
+        "time": 0.2149,
+        "fuel_consumption": 1.8179,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 0,
+        "to": 9,
+        "distance": 27.1443,
+        "time": 0.4996,
+        "fuel_consumption": 3.4319,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 0,
+        "to": 18,
+        "distance": 12.7192,
+        "time": 0.1872,
+        "fuel_consumption": 1.2212,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 0,
+        "to": 48,
+        "distance": 17.4222,
+        "time": 0.2288,
+        "fuel_consumption": 2.1804,
+        "travel_cost": 5.4450
+      },
+      {
+        "from": 1,
+        "to": 0,
+        "distance": 26.3794,
+        "time": 0.3358,
+        "fuel_consumption": 2.9240,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "distance": 14.1999,
+        "time": 0.2024,
+        "fuel_consumption": 1.4651,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 1,
+        "to": 5,
+        "distance": 13.3679,
+        "time": 0.1967,
+        "fuel_consumption": 1.5906,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 1,
+        "to": 10,
+        "distance": 6.6870,
+        "time": 0.0912,
+        "fuel_consumption": 0.8042,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 1,
+        "to": 43,
+        "distance": 5.9112,
+        "time": 0.0848,
+        "fuel_consumption": 0.6521,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 1,
+        "to": 35,
+        "distance": 7.5450,
+        "time": 0.1294,
+        "fuel_consumption": 0.5648,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 2,
+        "to": 1,
+        "distance": 14.1999,
+        "time": 0.2024,
+        "fuel_consumption": 1.4651,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 2,
+        "to": 6,
+        "distance": 38.0959,
+        "time": 0.6709,
+        "fuel_consumption": 3.8283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 2,
+        "to": 17,
+        "distance": 4.9737,
+        "time": 0.0553,
+        "fuel_consumption": 0.6021,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 2,
+        "to": 22,
+        "distance": 18.7503,
+        "time": 0.2596,
+        "fuel_consumption": 1.5137,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 2,
+        "to": 42,
+        "distance": 8.8426,
+        "time": 0.1691,
+        "fuel_consumption": 1.0894,
+        "travel_cost": 4.1049
+      },
+      {
+        "from": 2,
+        "to": 23,
+        "distance": 5.6722,
+        "time": 0.1078,
+        "fuel_consumption": 0.7085,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 3,
+        "to": 0,
+        "distance": 15.4609,
+        "time": 0.2882,
+        "fuel_consumption": 1.4252,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 3,
+        "to": 16,
+        "distance": 6.9513,
+        "time": 0.0789,
+        "fuel_consumption": 0.8438,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 3,
+        "to": 32,
+        "distance": 6.4701,
+        "time": 0.0864,
+        "fuel_consumption": 0.6751,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 4,
+        "to": 0,
+        "distance": 18.5092,
+        "time": 0.2149,
+        "fuel_consumption": 1.8179,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 4,
+        "to": 32,
+        "distance": 20.2478,
+        "time": 0.3734,
+        "fuel_consumption": 1.6395,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 4,
+        "to": 48,
+        "distance": 21.8006,
+        "time": 0.2976,
+        "fuel_consumption": 2.3856,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 1,
+        "distance": 13.3679,
+        "time": 0.1967,
+        "fuel_consumption": 1.5906,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 13,
+        "distance": 5.2642,
+        "time": 0.0719,
+        "fuel_consumption": 0.4509,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 19,
+        "distance": 29.0108,
+        "time": 0.4346,
+        "fuel_consumption": 3.6672,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 34,
+        "distance": 7.9885,
+        "time": 0.1112,
+        "fuel_consumption": 0.7378,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 35,
+        "distance": 5.8393,
+        "time": 0.0664,
+        "fuel_consumption": 0.7346,
+        "travel_cost": 2.4401
+      },
+      {
+        "from": 5,
+        "to": 28,
+        "distance": 5.9775,
+        "time": 0.0682,
+        "fuel_consumption": 0.7293,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 5,
+        "to": 47,
+        "distance": 10.2253,
+        "time": 0.1826,
+        "fuel_consumption": 0.7625,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 6,
+        "to": 2,
+        "distance": 38.0959,
+        "time": 0.6709,
+        "fuel_consumption": 3.8283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "distance": 35.9681,
+        "time": 0.4058,
+        "fuel_consumption": 3.2212,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 6,
+        "to": 8,
+        "distance": 9.2348,
+        "time": 0.1126,
+        "fuel_consumption": 1.0950,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 6,
+        "to": 12,
+        "distance": 23.5173,
+        "time": 0.2892,
+        "fuel_consumption": 1.9687,
+        "travel_cost": 5.9198
+      },
+      {
+        "from": 6,
+        "to": 14,
+        "distance": 16.0938,
+        "time": 0.1722,
+        "fuel_consumption": 1.6657,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 6,
+        "to": 38,
+        "distance": 8.5610,
+        "time": 0.1134,
+        "fuel_consumption": 0.6808,
+        "travel_cost": 3.0385
+      },
+      {
+        "from": 6,
+        "to": 40,
+        "distance": 15.6339,
+        "time": 0.2883,
+        "fuel_consumption": 1.3865,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 7,
+        "to": 6,
+        "distance": 35.9681,
+        "time": 0.4058,
+        "fuel_consumption": 3.2212,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 7,
+        "to": 33,
+        "distance": 13.8851,
+        "time": 0.2601,
+        "fuel_consumption": 1.2266,
+        "travel_cost": 2.7081
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "distance": 28.6461,
+        "time": 0.5642,
+        "fuel_consumption": 3.3173,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 7,
+        "to": 39,
+        "distance": 30.4600,
+        "time": 0.4296,
+        "fuel_consumption": 3.3197,
+        "travel_cost": 5.7712
+      },
+      {
+        "from": 8,
+        "to": 6,
+        "distance": 9.2348,
+        "time": 0.1126,
+        "fuel_consumption": 1.0950,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 8,
+        "to": 29,
+        "distance": 15.4223,
+        "time": 0.2036,
+        "fuel_consumption": 1.7907,
+        "travel_cost": 5.9755
+      },
+      {
+        "from": 8,
+        "to": 7,
+        "distance": 28.6461,
+        "time": 0.5642,
+        "fuel_consumption": 3.3173,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 8,
+        "to": 38,
+        "distance": 13.0028,
+        "time": 0.2565,
+        "fuel_consumption": 1.6384,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 8,
+        "to": 41,
+        "distance": 14.7101,
+        "time": 0.1810,
+        "fuel_consumption": 1.0963,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 8,
+        "to": 45,
+        "distance": 11.3303,
+        "time": 0.1432,
+        "fuel_consumption": 1.0571,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 9,
+        "to": 0,
+        "distance": 27.1443,
+        "time": 0.4996,
+        "fuel_consumption": 3.4319,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 9,
+        "to": 11,
+        "distance": 8.3907,
+        "time": 0.1010,
+        "fuel_consumption": 0.6926,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 9,
+        "to": 48,
+        "distance": 16.0406,
+        "time": 0.1825,
+        "fuel_consumption": 1.3099,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 9,
+        "to": 36,
+        "distance": 11.0508,
+        "time": 0.1368,
+        "fuel_consumption": 1.1819,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 10,
+        "to": 1,
+        "distance": 6.6870,
+        "time": 0.0912,
+        "fuel_consumption": 0.8042,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 10,
+        "to": 15,
+        "distance": 6.3374,
+        "time": 0.1083,
+        "fuel_consumption": 0.5497,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 10,
+        "to": 20,
+        "distance": 8.9250,
+        "time": 0.1181,
+        "fuel_consumption": 0.9332,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 11,
+        "to": 9,
+        "distance": 8.3907,
+        "time": 0.1010,
+        "fuel_consumption": 0.6926,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 11,
+        "to": 21,
+        "distance": 3.9559,
+        "time": 0.0564,
+        "fuel_consumption": 0.5130,
+        "travel_cost": 1.5813
+      },
+      {
+        "from": 11,
+        "to": 36,
+        "distance": 2.8467,
+        "time": 0.0331,
+        "fuel_consumption": 0.3149,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 11,
+        "to": 37,
+        "distance": 6.9467,
+        "time": 0.0803,
+        "fuel_consumption": 0.8283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 12,
+        "to": 6,
+        "distance": 23.5173,
+        "time": 0.2892,
+        "fuel_consumption": 1.9687,
+        "travel_cost": 5.9198
+      },
+      {
+        "from": 12,
+        "to": 24,
+        "distance": 2.5686,
+        "time": 0.0345,
+        "fuel_consumption": 0.2582,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 12,
+        "to": 46,
+        "distance": 4.3257,
+        "time": 0.0583,
+        "fuel_consumption": 0.3876,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 13,
+        "to": 5,
+        "distance": 5.2642,
+        "time": 0.0719,
+        "fuel_consumption": 0.4509,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 13,
+        "to": 20,
+        "distance": 7.6088,
+        "time": 0.1212,
+        "fuel_consumption": 0.6720,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 13,
+        "to": 28,
+        "distance": 4.6204,
+        "time": 0.0520,
+        "fuel_consumption": 0.3872,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 13,
+        "to": 25,
+        "distance": 8.5591,
+        "time": 0.1437,
+        "fuel_consumption": 1.0850,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 13,
+        "to": 47,
+        "distance": 8.2482,
+        "time": 0.1318,
+        "fuel_consumption": 0.7809,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 14,
+        "to": 6,
+        "distance": 16.0938,
+        "time": 0.1722,
+        "fuel_consumption": 1.6657,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 14,
+        "to": 38,
+        "distance": 7.5443,
+        "time": 0.1344,
+        "fuel_consumption": 0.8490,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 14,
+        "to": 40,
+        "distance": 4.9560,
+        "time": 0.0639,
+        "fuel_consumption": 0.3712,
+        "travel_cost": 4.3255
+      },
+      {
+        "from": 14,
+        "to": 31,
+        "distance": 11.9047,
+        "time": 0.2008,
+        "fuel_consumption": 1.0290,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 15,
+        "to": 10,
+        "distance": 6.3374,
+        "time": 0.1083,
+        "fuel_consumption": 0.5497,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 15,
+        "to": 18,
+        "distance": 8.2030,
+        "time": 0.0961,
+        "fuel_consumption": 0.9035,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 15,
+        "to": 20,
+        "distance": 9.1855,
+        "time": 0.1775,
+        "fuel_consumption": 0.9837,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 16,
+        "to": 3,
+        "distance": 6.9513,
+        "time": 0.0789,
+        "fuel_consumption": 0.8438,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 16,
+        "to": 27,
+        "distance": 10.7603,
+        "time": 0.1636,
+        "fuel_consumption": 1.1697,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 16,
+        "to": 49,
+        "distance": 12.5338,
+        "time": 0.1861,
+        "fuel_consumption": 1.3900,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 16,
+        "to": 32,
+        "distance": 13.0894,
+        "time": 0.1441,
+        "fuel_consumption": 1.3811,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 17,
+        "to": 2,
+        "distance": 4.9737,
+        "time": 0.0553,
+        "fuel_consumption": 0.6021,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 17,
+        "to": 23,
+        "distance": 2.1083,
+        "time": 0.0253,
+        "fuel_consumption": 0.2388,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 17,
+        "to": 43,
+        "distance": 9.8484,
+        "time": 0.1362,
+        "fuel_consumption": 1.0988,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 18,
+        "to": 15,
+        "distance": 8.2030,
+        "time": 0.0961,
+        "fuel_consumption": 0.9035,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 18,
+        "to": 0,
+        "distance": 12.7192,
+        "time": 0.1872,
+        "fuel_consumption": 1.2212,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 19,
+        "to": 5,
+        "distance": 29.0108,
+        "time": 0.4346,
+        "fuel_consumption": 3.6672,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 19,
+        "to": 26,
+        "distance": 11.0559,
+        "time": 0.1538,
+        "fuel_consumption": 1.3750,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 19,
+        "to": 39,
+        "distance": 10.4156,
+        "time": 0.1644,
+        "fuel_consumption": 0.9914,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 19,
+        "to": 34,
+        "distance": 21.5220,
+        "time": 0.3128,
+        "fuel_consumption": 2.7560,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 20,
+        "to": 13,
+        "distance": 7.6088,
+        "time": 0.1212,
+        "fuel_consumption": 0.6720,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 20,
+        "to": 25,
+        "distance": 6.3134,
+        "time": 0.1030,
+        "fuel_consumption": 0.6654,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 20,
+        "to": 15,
+        "distance": 9.1855,
+        "time": 0.1775,
+        "fuel_consumption": 0.9837,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 20,
+        "to": 10,
+        "distance": 8.9250,
+        "time": 0.1181,
+        "fuel_consumption": 0.9332,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 21,
+        "to": 11,
+        "distance": 3.9559,
+        "time": 0.0564,
+        "fuel_consumption": 0.5130,
+        "travel_cost": 1.5813
+      },
+      {
+        "from": 21,
+        "to": 30,
+        "distance": 19.3573,
+        "time": 0.2721,
+        "fuel_consumption": 1.6797,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 21,
+        "to": 36,
+        "distance": 1.9076,
+        "time": 0.0238,
+        "fuel_consumption": 0.1746,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 21,
+        "to": 37,
+        "distance": 6.9231,
+        "time": 0.1130,
+        "fuel_consumption": 0.7258,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 22,
+        "to": 2,
+        "distance": 18.7503,
+        "time": 0.2596,
+        "fuel_consumption": 1.5137,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 22,
+        "to": 31,
+        "distance": 8.7195,
+        "time": 0.1042,
+        "fuel_consumption": 1.1090,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 22,
+        "to": 44,
+        "distance": 6.6646,
+        "time": 0.1097,
+        "fuel_consumption": 0.7384,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 22,
+        "to": 42,
+        "distance": 12.0355,
+        "time": 0.1796,
+        "fuel_consumption": 1.2283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 22,
+        "to": 49,
+        "distance": 14.0061,
+        "time": 0.2439,
+        "fuel_consumption": 1.3260,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 23,
+        "to": 17,
+        "distance": 2.1083,
+        "time": 0.0253,
+        "fuel_consumption": 0.2388,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 23,
+        "to": 2,
+        "distance": 5.6722,
+        "time": 0.1078,
+        "fuel_consumption": 0.7085,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 23,
+        "to": 42,
+        "distance": 9.1688,
+        "time": 0.1446,
+        "fuel_consumption": 0.6968,
+        "travel_cost": 5.8134
+      },
+      {
+        "from": 24,
+        "to": 12,
+        "distance": 2.5686,
+        "time": 0.0345,
+        "fuel_consumption": 0.2582,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 24,
+        "to": 40,
+        "distance": 15.2752,
+        "time": 0.1642,
+        "fuel_consumption": 1.6895,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 24,
+        "to": 46,
+        "distance": 5.9946,
+        "time": 0.0905,
+        "fuel_consumption": 0.5131,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 25,
+        "to": 20,
+        "distance": 6.3134,
+        "time": 0.1030,
+        "fuel_consumption": 0.6654,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 25,
+        "to": 37,
+        "distance": 7.3717,
+        "time": 0.1372,
+        "fuel_consumption": 0.5566,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 25,
+        "to": 13,
+        "distance": 8.5591,
+        "time": 0.1437,
+        "fuel_consumption": 1.0850,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 26,
+        "to": 19,
+        "distance": 11.0559,
+        "time": 0.1538,
+        "fuel_consumption": 1.3750,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 26,
+        "to": 47,
+        "distance": 16.6139,
+        "time": 0.1808,
+        "fuel_consumption": 2.1341,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 26,
+        "to": 34,
+        "distance": 18.9086,
+        "time": 0.2274,
+        "fuel_consumption": 1.9429,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 27,
+        "to": 16,
+        "distance": 10.7603,
+        "time": 0.1636,
+        "fuel_consumption": 1.1697,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 27,
+        "to": 49,
+        "distance": 5.8593,
+        "time": 0.0719,
+        "fuel_consumption": 0.4588,
+        "travel_cost": 5.8629
+      },
+      {
+        "from": 28,
+        "to": 13,
+        "distance": 4.6204,
+        "time": 0.0520,
+        "fuel_consumption": 0.3872,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 28,
+        "to": 47,
+        "distance": 4.3099,
+        "time": 0.0693,
+        "fuel_consumption": 0.5513,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 28,
+        "to": 5,
+        "distance": 5.9775,
+        "time": 0.0682,
+        "fuel_consumption": 0.7293,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 28,
+        "to": 34,
+        "distance": 8.7708,
+        "time": 0.1261,
+        "fuel_consumption": 0.7475,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 29,
+        "to": 8,
+        "distance": 15.4223,
+        "time": 0.2036,
+        "fuel_consumption": 1.7907,
+        "travel_cost": 5.9755
+      },
+      {
+        "from": 29,
+        "to": 41,
+        "distance": 6.9188,
+        "time": 0.1178,
+        "fuel_consumption": 0.5138,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 29,
+        "to": 45,
+        "distance": 4.4837,
+        "time": 0.0505,
+        "fuel_consumption": 0.3812,
+        "travel_cost": 2.8647
+      },
+      {
+        "from": 30,
+        "to": 21,
+        "distance": 19.3573,
+        "time": 0.2721,
+        "fuel_consumption": 1.6797,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 30,
+        "to": 37,
+        "distance": 19.3911,
+        "time": 0.3231,
+        "fuel_consumption": 1.8189,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 30,
+        "to": 36,
+        "distance": 20.1367,
+        "time": 0.2755,
+        "fuel_consumption": 1.6914,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 31,
+        "to": 22,
+        "distance": 8.7195,
+        "time": 0.1042,
+        "fuel_consumption": 1.1090,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 31,
+        "to": 44,
+        "distance": 2.8397,
+        "time": 0.0498,
+        "fuel_consumption": 0.3661,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 31,
+        "to": 14,
+        "distance": 11.9047,
+        "time": 0.2008,
+        "fuel_consumption": 1.0290,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 32,
+        "to": 3,
+        "distance": 6.4701,
+        "time": 0.0864,
+        "fuel_consumption": 0.6751,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 32,
+        "to": 4,
+        "distance": 20.2478,
+        "time": 0.3734,
+        "fuel_consumption": 1.6395,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 32,
+        "to": 16,
+        "distance": 13.0894,
+        "time": 0.1441,
+        "fuel_consumption": 1.3811,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 33,
+        "to": 7,
+        "distance": 13.8851,
+        "time": 0.2601,
+        "fuel_consumption": 1.2266,
+        "travel_cost": 2.7081
+      },
+      {
+        "from": 33,
+        "to": 41,
+        "distance": 20.6298,
+        "time": 0.3079,
+        "fuel_consumption": 2.3168,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 33,
+        "to": 39,
+        "distance": 17.2123,
+        "time": 0.2333,
+        "fuel_consumption": 1.6555,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 34,
+        "to": 5,
+        "distance": 7.9885,
+        "time": 0.1112,
+        "fuel_consumption": 0.7378,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 34,
+        "to": 19,
+        "distance": 21.5220,
+        "time": 0.3128,
+        "fuel_consumption": 2.7560,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 34,
+        "to": 26,
+        "distance": 18.9086,
+        "time": 0.2274,
+        "fuel_consumption": 1.9429,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 34,
+        "to": 28,
+        "distance": 8.7708,
+        "time": 0.1261,
+        "fuel_consumption": 0.7475,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 34,
+        "to": 47,
+        "distance": 10.7264,
+        "time": 0.1287,
+        "fuel_consumption": 1.2446,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 35,
+        "to": 5,
+        "distance": 5.8393,
+        "time": 0.0664,
+        "fuel_consumption": 0.7346,
+        "travel_cost": 2.4401
+      },
+      {
+        "from": 35,
+        "to": 1,
+        "distance": 7.5450,
+        "time": 0.1294,
+        "fuel_consumption": 0.5648,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 35,
+        "to": 43,
+        "distance": 7.1430,
+        "time": 0.0859,
+        "fuel_consumption": 0.8923,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 36,
+        "to": 21,
+        "distance": 1.9076,
+        "time": 0.0238,
+        "fuel_consumption": 0.1746,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 36,
+        "to": 37,
+        "distance": 5.3913,
+        "time": 0.0852,
+        "fuel_consumption": 0.4817,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 36,
+        "to": 9,
+        "distance": 11.0508,
+        "time": 0.1368,
+        "fuel_consumption": 1.1819,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 36,
+        "to": 11,
+        "distance": 2.8467,
+        "time": 0.0331,
+        "fuel_consumption": 0.3149,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 36,
+        "to": 30,
+        "distance": 20.1367,
+        "time": 0.2755,
+        "fuel_consumption": 1.6914,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 37,
+        "to": 36,
+        "distance": 5.3913,
+        "time": 0.0852,
+        "fuel_consumption": 0.4817,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 37,
+        "to": 11,
+        "distance": 6.9467,
+        "time": 0.0803,
+        "fuel_consumption": 0.8283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 37,
+        "to": 21,
+        "distance": 6.9231,
+        "time": 0.1130,
+        "fuel_consumption": 0.7258,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 37,
+        "to": 25,
+        "distance": 7.3717,
+        "time": 0.1372,
+        "fuel_consumption": 0.5566,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 37,
+        "to": 30,
+        "distance": 19.3911,
+        "time": 0.3231,
+        "fuel_consumption": 1.8189,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 38,
+        "to": 14,
+        "distance": 7.5443,
+        "time": 0.1344,
+        "fuel_consumption": 0.8490,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 38,
+        "to": 6,
+        "distance": 8.5610,
+        "time": 0.1134,
+        "fuel_consumption": 0.6808,
+        "travel_cost": 3.0385
+      },
+      {
+        "from": 38,
+        "to": 8,
+        "distance": 13.0028,
+        "time": 0.2565,
+        "fuel_consumption": 1.6384,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 38,
+        "to": 40,
+        "distance": 8.1281,
+        "time": 0.1339,
+        "fuel_consumption": 0.7641,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 39,
+        "to": 19,
+        "distance": 10.4156,
+        "time": 0.1644,
+        "fuel_consumption": 0.9914,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 39,
+        "to": 7,
+        "distance": 30.4600,
+        "time": 0.4296,
+        "fuel_consumption": 3.3197,
+        "travel_cost": 5.7712
+      },
+      {
+        "from": 39,
+        "to": 33,
+        "distance": 17.2123,
+        "time": 0.2333,
+        "fuel_consumption": 1.6555,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 40,
+        "to": 14,
+        "distance": 4.9560,
+        "time": 0.0639,
+        "fuel_consumption": 0.3712,
+        "travel_cost": 4.3255
+      },
+      {
+        "from": 40,
+        "to": 6,
+        "distance": 15.6339,
+        "time": 0.2883,
+        "fuel_consumption": 1.3865,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 40,
+        "to": 24,
+        "distance": 15.2752,
+        "time": 0.1642,
+        "fuel_consumption": 1.6895,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 40,
+        "to": 38,
+        "distance": 8.1281,
+        "time": 0.1339,
+        "fuel_consumption": 0.7641,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 40,
+        "to": 46,
+        "distance": 9.3820,
+        "time": 0.1454,
+        "fuel_consumption": 0.6812,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 41,
+        "to": 29,
+        "distance": 6.9188,
+        "time": 0.1178,
+        "fuel_consumption": 0.5138,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 41,
+        "to": 33,
+        "distance": 20.6298,
+        "time": 0.3079,
+        "fuel_consumption": 2.3168,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 41,
+        "to": 8,
+        "distance": 14.7101,
+        "time": 0.1810,
+        "fuel_consumption": 1.0963,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 41,
+        "to": 45,
+        "distance": 8.3423,
+        "time": 0.1231,
+        "fuel_consumption": 0.6374,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 42,
+        "to": 2,
+        "distance": 8.8426,
+        "time": 0.1691,
+        "fuel_consumption": 1.0894,
+        "travel_cost": 4.1049
+      },
+      {
+        "from": 42,
+        "to": 22,
+        "distance": 12.0355,
+        "time": 0.1796,
+        "fuel_consumption": 1.2283,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 42,
+        "to": 23,
+        "distance": 9.1688,
+        "time": 0.1446,
+        "fuel_consumption": 0.6968,
+        "travel_cost": 5.8134
+      },
+      {
+        "from": 42,
+        "to": 44,
+        "distance": 8.2342,
+        "time": 0.1302,
+        "fuel_consumption": 1.0684,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 43,
+        "to": 1,
+        "distance": 5.9112,
+        "time": 0.0848,
+        "fuel_consumption": 0.6521,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 43,
+        "to": 17,
+        "distance": 9.8484,
+        "time": 0.1362,
+        "fuel_consumption": 1.0988,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 43,
+        "to": 35,
+        "distance": 7.1430,
+        "time": 0.0859,
+        "fuel_consumption": 0.8923,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 44,
+        "to": 31,
+        "distance": 2.8397,
+        "time": 0.0498,
+        "fuel_consumption": 0.3661,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 44,
+        "to": 22,
+        "distance": 6.6646,
+        "time": 0.1097,
+        "fuel_consumption": 0.7384,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 44,
+        "to": 42,
+        "distance": 8.2342,
+        "time": 0.1302,
+        "fuel_consumption": 1.0684,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 45,
+        "to": 29,
+        "distance": 4.4837,
+        "time": 0.0505,
+        "fuel_consumption": 0.3812,
+        "travel_cost": 2.8647
+      },
+      {
+        "from": 45,
+        "to": 41,
+        "distance": 8.3423,
+        "time": 0.1231,
+        "fuel_consumption": 0.6374,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 45,
+        "to": 8,
+        "distance": 11.3303,
+        "time": 0.1432,
+        "fuel_consumption": 1.0571,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 46,
+        "to": 12,
+        "distance": 4.3257,
+        "time": 0.0583,
+        "fuel_consumption": 0.3876,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 46,
+        "to": 40,
+        "distance": 9.3820,
+        "time": 0.1454,
+        "fuel_consumption": 0.6812,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 46,
+        "to": 24,
+        "distance": 5.9946,
+        "time": 0.0905,
+        "fuel_consumption": 0.5131,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 47,
+        "to": 28,
+        "distance": 4.3099,
+        "time": 0.0693,
+        "fuel_consumption": 0.5513,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 47,
+        "to": 26,
+        "distance": 16.6139,
+        "time": 0.1808,
+        "fuel_consumption": 2.1341,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 47,
+        "to": 34,
+        "distance": 10.7264,
+        "time": 0.1287,
+        "fuel_consumption": 1.2446,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 47,
+        "to": 13,
+        "distance": 8.2482,
+        "time": 0.1318,
+        "fuel_consumption": 0.7809,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 47,
+        "to": 5,
+        "distance": 10.2253,
+        "time": 0.1826,
+        "fuel_consumption": 0.7625,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 48,
+        "to": 9,
+        "distance": 16.0406,
+        "time": 0.1825,
+        "fuel_consumption": 1.3099,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 48,
+        "to": 4,
+        "distance": 21.8006,
+        "time": 0.2976,
+        "fuel_consumption": 2.3856,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 48,
+        "to": 0,
+        "distance": 17.4222,
+        "time": 0.2288,
+        "fuel_consumption": 2.1804,
+        "travel_cost": 5.4450
+      },
+      {
+        "from": 49,
+        "to": 27,
+        "distance": 5.8593,
+        "time": 0.0719,
+        "fuel_consumption": 0.4588,
+        "travel_cost": 5.8629
+      },
+      {
+        "from": 49,
+        "to": 16,
+        "distance": 12.5338,
+        "time": 0.1861,
+        "fuel_consumption": 1.3900,
+        "travel_cost": 0.0000
+      },
+      {
+        "from": 49,
+        "to": 22,
+        "distance": 14.0061,
+        "time": 0.2439,
+        "fuel_consumption": 1.3260,
+        "travel_cost": 0.0000
+      }
+    ]
+  },
+  "paths": [
+    {
+      "index": 1,
+      "cost": 0.0000,
+      "time": 0.5533,
+      "normalized_cost": 0.0000,
+      "normalized_time": 0.0000,
+      "score": 0.0000,
+      "route": [0, 3, 16, 49],
+      "fuel_purchases": [
+      ]
+    }
+  ]
+}
