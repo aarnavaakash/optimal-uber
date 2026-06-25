@@ -107,46 +107,30 @@ void InteractiveCommandLineInterface::run_optimization() {
     print_banner();
     std::cout << YELLOW << BOLD << "\n--- Configure Vehicle & Query Parameters ---" << RESET << std::endl;
     
-    bool use_prefill = false;
-    if (file_query_settings.has_query) {
-        std::cout << "Query configuration from loaded file is available.\n";
-        std::cout << "Use pre-filled settings (Source: " << file_query_settings.source 
-                  << ", Dest: " << file_query_settings.destination 
-                  << ", Tank: " << file_query_settings.tank_capacity 
-                  << ", Init Fuel: " << file_query_settings.initial_fuel << ")? (y/n) [y]: ";
-        std::string ans;
-        std::getline(std::cin, ans);
-        if (ans.empty() || ans[0] == 'y' || ans[0] == 'Y') {
-            use_prefill = true;
-        }
-    }
-
     int max_node_id = graph.get_num_nodes() - 1;
 
-    if (use_prefill) {
-        current_start = file_query_settings.source;
-        current_dest = file_query_settings.destination;
-        tank_capacity = file_query_settings.tank_capacity;
-        initial_fuel = file_query_settings.initial_fuel;
-        
-        std::cout << "Source Node ID     : " << current_start << std::endl;
-        std::cout << "Destination Node ID: " << current_dest << std::endl;
-        std::cout << "Tank Capacity      : " << tank_capacity << std::endl;
-        std::cout << "Initial Fuel       : " << initial_fuel << std::endl;
-        
-        fuel_step = prompt_double("Enter fuel purchasing step size (units)", 0.1, 10.0, fuel_step);
-        refuel_overhead = prompt_double("Enter time penalty for refueling stops (hours)", 0.0, 5.0, refuel_overhead);
-    } else {
-        std::string start_prompt = "Enter source node ID (0-" + std::to_string(max_node_id) + ")";
-        std::string dest_prompt = "Enter destination node ID (0-" + std::to_string(max_node_id) + ")";
-        current_start = prompt_int(start_prompt, 0, max_node_id, current_start);
-        current_dest = prompt_int(dest_prompt, 0, max_node_id, current_dest);
-        
-        tank_capacity = prompt_double("Enter fuel tank capacity (max fuel units)", 1.0, 500.0, tank_capacity);
-        initial_fuel = prompt_double("Enter initial fuel level (units in tank)", 0.0, tank_capacity, initial_fuel);
-        fuel_step = prompt_double("Enter fuel purchasing step size (units)", 0.1, 10.0, fuel_step);
-        refuel_overhead = prompt_double("Enter time penalty for refueling stops (hours)", 0.0, 5.0, refuel_overhead);
-    }
+    // Use file query settings as defaults if available, otherwise use class variables
+    int default_start = file_query_settings.has_query ? file_query_settings.source : current_start;
+    int default_dest = file_query_settings.has_query ? file_query_settings.destination : current_dest;
+    double default_cap = file_query_settings.has_query ? file_query_settings.tank_capacity : tank_capacity;
+    double default_init = file_query_settings.has_query ? file_query_settings.initial_fuel : initial_fuel;
+
+    // Ensure default values are within bounds
+    if (default_start < 0 || default_start > max_node_id) default_start = 0;
+    if (default_dest < 0 || default_dest > max_node_id) default_dest = max_node_id;
+    if (default_cap <= 0.0) default_cap = 50.0;
+    if (default_init < 0.0 || default_init > default_cap) default_init = default_cap / 2.0;
+
+    std::string start_prompt = "Enter source node ID (0-" + std::to_string(max_node_id) + ")";
+    std::string dest_prompt = "Enter destination node ID (0-" + std::to_string(max_node_id) + ")";
+    
+    current_start = prompt_int(start_prompt, 0, max_node_id, default_start);
+    current_dest = prompt_int(dest_prompt, 0, max_node_id, default_dest);
+    
+    tank_capacity = prompt_double("Enter fuel tank capacity (max fuel units)", 1.0, 500.0, default_cap);
+    initial_fuel = prompt_double("Enter initial fuel level (units in tank)", 0.0, tank_capacity, default_init);
+    fuel_step = prompt_double("Enter fuel purchasing step size (units)", 0.1, 10.0, fuel_step);
+    refuel_overhead = prompt_double("Enter time penalty for refueling stops (hours)", 0.0, 5.0, refuel_overhead);
 
     if (current_start == current_dest) {
         std::cout << RED << "Source and destination are the same! No travel required." << RESET << std::endl;
